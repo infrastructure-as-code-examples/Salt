@@ -1,0 +1,8 @@
+Description = Mule EE Runtime Service
+After = network.target
+
+[Service]
+ExecStart = /opt/mule-enterprise-standalone-4.1.1/bin/mule
+
+[Install]
+WantedBy = multi-user.target
